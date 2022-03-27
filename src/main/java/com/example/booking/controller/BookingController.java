@@ -21,7 +21,7 @@ import java.util.List;
 @Api(description = "Car Booking API")
 @RestController
 @RequestMapping("car/")
-public class ReverseController {
+public class BookingController {
 
     @Autowired
     private CarStockService carStockService;
